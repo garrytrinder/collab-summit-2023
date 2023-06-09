@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "collab-summit-m-365-spfx-client-side-solution",
+    "id": "49518dc7-880a-4fd5-b5e9-0afa8821db62",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.17.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "collab-summit-m365-spfx description"
+      },
+      "longDescription": {
+        "default": "collab-summit-m365-spfx description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "collab-summit-m-365-spfx Feature",
+        "description": "The feature that activates elements of the collab-summit-m-365-spfx solution.",
+        "id": "cb7424e2-728a-4bb9-8cf4-4798e6d342da",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/collab-summit-m-365-spfx.sppkg"
+  }
+}

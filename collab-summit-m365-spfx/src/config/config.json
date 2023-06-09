@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "extendm-365-spfx-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/extendm365Spfx/Extendm365SpfxWebPart.js",
+          "manifest": "./src/webparts/extendm365Spfx/Extendm365SpfxWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "Extendm365SpfxWebPartStrings": "lib/webparts/extendm365Spfx/loc/{locale}.js"
+  }
+}

@@ -1,0 +1,36 @@
+{
+    "$schema": "https://developer.microsoft.com/json-schemas/teams/v1.13/MicrosoftTeams.schema.json",
+    "manifestVersion": "1.13",
+    "version": "1.0.1",
+    "id": "d9a0b4b7-6c1d-4d8a-8e0a-8f082a9a3f8e",
+    "packageName": "com.collabsummit.eu",
+    "developer": {
+        "name": "CollabSummit",
+        "websiteUrl": "https://www.collabsummit.eu",
+        "privacyUrl": "https://www.collabsummit.eu/privacy",
+        "termsOfUseUrl": "https://www.collabsummit.eu/termsofuse"
+    },
+    "description": {
+        "short": "Extend apps across Microsoft 365 at Collab Summit",
+        "full": "Extend apps across Microsoft 365 at Collab Summit"
+    },
+    "accentColor": "#A5416F",
+    "name": {
+        "short": "Extend apps",
+        "full": "Extend apps across Microsoft 365 at Collab Summit"
+    },
+    "icons": {
+        "color": "color.png",
+        "outline": "outline.png"
+    },
+    "staticTabs": [
+        {
+            "entityId": "extendM365",
+            "name": "Tab",
+            "contentUrl": "https://localhost:1234",
+            "scopes": [
+                "personal"
+            ]
+        }
+    ]
+}

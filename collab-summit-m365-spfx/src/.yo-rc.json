@@ -1,0 +1,24 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "whichFolder": "subdir",
+    "solutionName": "collab-summit-m365-spfx",
+    "environment": "spo",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart",
+    "template": "react",
+    "componentName": "extendm365spfx",
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "16.20.0",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.9.1"
+    },
+    "version": "1.17.2",
+    "libraryName": "collab-summit-m-365-spfx",
+    "libraryId": "49518dc7-880a-4fd5-b5e9-0afa8821db62",
+    "packageManager": "npm",
+    "solutionShortDescription": "collab-summit-m365-spfx description"
+  }
+}
